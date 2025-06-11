@@ -36,8 +36,8 @@ Metric (Class 1 - Diabetic) Value Precision 0.71 Recall 0.62 F1 Score 0.66
 
 Mean accuracy: 76.96% Std deviation: 3.43%
 
-🔹 Insight: This model is accurate overall (just like the GaussianNB), but it too tends to miss a fair amount diabetic cases. The mean accuracy is slightly higher than the GaussianNB model along with a slightly lower std deviation. This consistently low accuracy leads me to believe the dataset being used isn't enough to build an accurate model but I'll need to do more testing to be sure.
+🔹 Insight: This model is accurate overall (just like the GaussianNB), but it too tends to miss a fair amount diabetic cases. The mean accuracy is slightly higher than the GaussianNB model along with a slightly lower std deviation. This consistently low accuracy leads me to believe the dataset being used isn't balanced enough to build an accurate model but I'll need to do more testing to be sure.
 
-5️⃣ Future Improvements 💡 ✅ Explore different models to verify my hypothesis about needing a larger dataset
+5️⃣ Future Improvements 💡 ✅ Explore different models to verify my hypothesis about needing a more balanced dataset
 
 🔗 Connect with me https://www.linkedin.com/in/chris-gundes
