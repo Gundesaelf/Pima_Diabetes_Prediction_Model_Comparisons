@@ -99,7 +99,7 @@ for actual, predicted in zip(y_test, y_pred):
 print(Fore.LIGHTCYAN_EX)
 print('\n\nClassification Report:\n\n', classification_report(y_test, y_pred))
 
-print(Fore.LIGHTGREEN_EX + f'\n\nAccuracy: {accuracy_score(y_test, y_pred):.2%}\n\n') # Our finall accuracy score is 80%
+print(Fore.LIGHTGREEN_EX + f'\n\nAccuracy: {accuracy_score(y_test, y_pred):.2%}\n\n') # Our final accuracy score is 80%
 
 # |---------------------------------CROSS_VALIDATION---------------------------------|
 
