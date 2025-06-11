@@ -26,15 +26,15 @@ F1 Score
 
 A detailed classification report is printed with color-coded terminal output for clarity.
 
-4️⃣ Key Results & Insights 📊 Current Accuracy: 78.65% – 80.00% ✅ Very solid for a simple Naive Bayes model (but also the best-case scenario) 🔍 Model is better at identifying non-diabetic cases (Class 0) than diabetic cases (Class 1)
+4️⃣ Key Results & Insights 📊 Current Accuracy: 78.65% – 80.00% ✅ Very solid for a simple Naive Bayes model (but also the best-case scenario due to intentional overfitting) 🔍 Model is better at identifying non-diabetic cases (Class 0) than diabetic cases (Class 1)
 
 Metric (Class 1 - Diabetic) Value Precision 0.77 Recall 0.60 F1 Score 0.67
 
 Mean accuracy: 75.65% Std deviation: 3.74%
 
-🔹 Insight: While the model is accurate overall (after giving it the best chance possible), it tends to miss some diabetic cases. This is common in imbalanced datasets and can be improved with sampling or threshold tuning.
+🔹 Insight: While the model is accurate overall (after giving it the best chance possible), it tends to miss a lot of diabetic cases. This is common in imbalanced datasets and can be improved with sampling or threshold tuning. I got a little carried away trying to get higher scores and ended up fixating on improving accuracy and not recall.
 
-5️⃣ Future Improvements 💡 ✅ Explore different test sizes to optimize generalization
+5️⃣ Future Improvements 💡 ✅ Explore different test sizes to optimize generalization and retain focus on improving recall, not accuracy.
 
 🔄 Try oversampling (e.g. SMOTE) to balance classes 🧪 Compare with other models: Random Forest, Logistic Regression, etc. 📈 Cross-validate Precision, Recall, and F1 Score
 
