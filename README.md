@@ -28,4 +28,4 @@ Each model was tested in baseline form and with class weighting to handle imbala
 A detailed classification report and visualizations are available in the report. 
 
 
-🔗 Connect with me https://www.linkedin.com/in/chris-gundes
+## 🔗 Connect with me https://www.linkedin.com/in/chris-gundes
